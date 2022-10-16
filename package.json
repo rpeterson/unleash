@@ -22,7 +22,7 @@
   },
   "types": "./dist/lib/server-impl.d.ts",
   "engines": {
-    "node": ">=18"
+    "node": "16.14.2"
   },
   "license": "Apache-2.0",
   "main": "./dist/lib/server-impl.js",
@@ -132,7 +132,8 @@
     "type-is": "^1.6.18",
     "unleash-client": "3.15.0",
     "use-deep-compare-effect": "^1.8.1",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@apidevtools/swagger-parser": "10.1.0",
